@@ -1,0 +1,13 @@
+/* --------------- Imported Fonts --------------- */
+/* Example: @import url('font url here'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+
+}

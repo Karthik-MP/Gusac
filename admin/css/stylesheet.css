@@ -1,0 +1,167 @@
+/* --------------- Imported Fonts --------------- */
+/* Example: @import url('font url here'); */
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+/* --------- CSS Variables declaration --------- */
+:root {
+	--porcelain: #eff2f2;
+  --sea-curseve: 'East Sea Dokdo', cursive;
+}
+
+/* ------------------------------Start of Header CSS--------------------------------- */
+/* #navbar, #footerSec{
+	width: 100vw;
+} */
+  #navbar img{
+  width: 55%;
+  height: auto;
+  margin-right: 0px;
+}
+#navbar a{
+  padding-right: 0px;
+  width: 100px;
+}
+
+#navbar nav{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#navbar nav #navbarToggleExternalContent ul a {
+  transition: 0.4s ease;
+  color: black;
+  font-size: 16px;
+}
+
+#navbar nav #navbarToggleExternalContent ul a:hover {
+  font-size: 20px;
+}
+
+#navbar nav #logregButton button{
+  width: 100px;
+  margin-right: 15px;
+}
+
+/* ------------------------------End of Header CSS--------------------------------- */
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+#login_box .main{
+  margin: 100px auto;
+  background-color: #eff2f2;
+}
+
+#login_box small{
+  color: #067a7a;
+}
+
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+/*-----------------------------Start Event form------------------------------------*/
+
+#eventform {
+  margin: 5% 20% 5% 20%;
+}
+#eventform .center {
+ margin:auto;
+ width:110px;
+}
+#eventform .form-group {
+font-size: large;
+}
+#eventform .form1 {
+ padding: 30px;
+}
+#eventform .req {
+  color: red;
+}
+/*--------------------------End of Event Form----------------------------*/
+
+/* ------------------------------Start of Fotter CSS--------------------------------- */
+#navbar, #footerSec{
+	width: 100%;
+}
+#footerSec{
+  background-color: var(--porcelain);
+  /* vertical-align: middle; */
+  padding-top: 5px;
+}
+
+#footerSec .smallEle{
+  text-align: center;
+  padding-top: 15px;
+}
+
+#footerSec .smallEle a{
+  color: black;
+  font-size: 19px;
+}
+
+#footerSec .smallEle a:hover{
+  color: rgb(41, 13, 13);
+  transition:0.3s ease;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#footerSec .footer-brand img{
+  width: 50px;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+.footer_head{
+  text-align: center;
+}
+
+#footerSec hr.foot_sep_line {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+#footerSec hr.foot_sep_line:after {
+    font-family: 'Play', sans-serif;
+    content: "GUSAC";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.3em;
+    padding: 0 0.25em;
+    background-color: #eff2f2;
+}
+
+#footerSec .fa-instagram{
+  color: #cc187a;
+}
+
+#footerSec .fa-facebook-square{
+  color: 	#4267B2;
+}
+
+#footerSec .fa-youtube{
+    color: #FF0000;
+}
+
+#footerSec .fa-linkedin{
+    color: #2867B2 ;
+}
+
+#footerSec .footer_head span{
+   font-size: 20px;
+   padding-right: 10px;
+}
+
+#footerSec .fa-instagram:hover,
+#footerSec .fa-facebook-square:hover,
+#footerSec .fa-youtube:hover,
+#footerSec .fa-linkedin:hover{
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 25px;
+	color: #a3d2e3;
+}
+/* ------------------------------End of Fotter CSS--------------------------------- */
